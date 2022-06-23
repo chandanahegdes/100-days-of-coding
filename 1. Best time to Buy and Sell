@@ -11,6 +11,5 @@ public:
             minsofar=min(prices[i],minsofar);
         }
         return ans;
-       
     }
 };
