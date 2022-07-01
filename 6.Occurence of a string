@@ -1,0 +1,20 @@
+Q: Find occurence of a string in an array of strings
+
+#include<iostream>
+using namespace std;
+
+int stringOccurence(string arr[5],string str,int n){
+int count=0;
+for(int i=0;i<n;i++){
+if(arr[i]==str)
+count++;
+retun count;
+}
+
+int main(){
+string arr[5]={"abc","xyz","ab","abc","ab"};
+string str="abc";
+int a=stringOccurence(arr,str,5);
+cout<<a<<endl;
+return 0;
+}
